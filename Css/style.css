@@ -1195,11 +1195,20 @@ footer{
     }
 
 /* End slider for phone */
-
-
+.offers-mobile{
+    display: none;
+}
+ 
 @media only screen and (max-width: 600px) {
     .offers {
       display: none;
+    }
+
+    .offers-mobile{
+        display: block;
+        /* padding: 0px 30px; */
+        margin: 90px 0px;
+ 
     }
   }
 
