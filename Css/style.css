@@ -229,7 +229,9 @@ margin-right: 20px;
     
     color: #00A653;
 }
-
+.about-us{
+    display: none;
+}
 
 
 .btn-cu{
@@ -655,6 +657,7 @@ list-style: none;
     }
 .Support-for-mobile{
     display: none;
+    margin-bottom: 20px;
 }
 .social-icons1{
     display: none;
@@ -675,6 +678,7 @@ color: #F4B79E;
 .Categories ul li,.about-us  ul li,.Support ul li {
     list-style: none;
 margin-top: 10px;
+color: #F4B79E;
 
 }
 .Categories ul li a,.about-us  ul li a,.Support ul li a{
@@ -729,6 +733,28 @@ line-height: 27px;
     display: flex;
     flex-wrap: wrap;
 }
+
+
+
+.example{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+  margin-bottom: 70px;
+}
+.examplediv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.examplediv img{
+    width: 20%;
+    /* padding: 0px 40px; */
+    margin :0px 50px;
+    border-radius: 5px;
+}
+
+
 /* End footer */
 
 
@@ -961,6 +987,25 @@ padding-right: 30vw;
     width: 50px;
   
 }
+.example{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+  margin-bottom: 30px;
+}
+.examplediv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.examplediv img{
+    width: 70%;
+    /* padding: 0px 40px; */
+    margin :10px 50px;
+    border-radius: 5px;
+}
+
 .Support{
     display: none;
 }
@@ -970,7 +1015,7 @@ padding-right: 30vw;
 
 .Support-for-mobile{
     
-   width: 85%;
+   width: 80%;
   
     color: #F4B79E;
 }
@@ -989,7 +1034,9 @@ padding-right: 30vw;
 align-items: center;
 justify-content: space-between;
 }
-
+.Support-for-mobile-info ul h2{
+    font-size: 20px;
+}
 #header{
    background-image: url(/img/phonebg.png);
    height: 100vh;
@@ -1212,6 +1259,7 @@ footer{
 }
 
 .about-us{
+    display: block;
     visibility: hidden;
 }
 }
@@ -1289,22 +1337,3 @@ footer{
   }
 
 
-
-
-  .example{
-      display: flex;
-      align-items: center;
-      /* justify-content: space-between; */
-    margin-bottom: 70px;
-  }
-  .examplediv{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .examplediv img{
-      width: 20%;
-      /* padding: 0px 40px; */
-      margin :0px 50px;
-      border-radius: 5px;
-  }
