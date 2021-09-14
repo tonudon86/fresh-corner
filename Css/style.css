@@ -1396,5 +1396,26 @@ cursor: pointer;
         height: 100%;
         width: 100%;
     }
+    .example{
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+      margin-bottom: 70px;
+    }
+    .examplediv{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+    .examplediv img{
+        display: flex;
+        flex-direction: row;
+        width: 30%;
+      
+        margin :0px 5px;
+        border-radius: 5px;
+    }
+    
   }
 
