@@ -14,7 +14,7 @@
     
 	url('/img/The-Best-50-Website-Preloaders-Around-the-Web-Example-07.gif')
 	 no-repeat center center;
-     background-size: 500px 500px;
+     /* background-size: 500px 500px; */
 	z-index: 99999;
 }
 h1 , h2 , h3,h4,h5, h6 {
