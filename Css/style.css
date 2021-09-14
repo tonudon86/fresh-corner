@@ -451,12 +451,7 @@ color: #171635;
     justify-content: center;
     padding: 144px 0px;
 }
-.div-our-product{
-    display: flex;
-    flex-direction: column;
-    padding: 25px 50px ;
 
-}
 .productes-boxes{
     display: flex;
     flex-direction: row;
@@ -1177,6 +1172,20 @@ width: 97%;
 .single-p-p-process h3 {
     font-size: 14px;
 }
+.single-product-box{
+    width: 82px;
+    height: 127px;
+}
+.single-product-box h3 , .single-product-box h3{
+font-size: 10px;
+}
+.single-product-box p{
+    font-size: 10px;
+}
+.single-product-box img{
+    width: 66%;
+}
+
 .single-p-p-process{
     width: 44%;
     align-items: center;
@@ -1266,64 +1275,17 @@ footer{
 
 .about-us{
     visibility: hidden;
+
 }
+.div-our-product{
+    flex-wrap: wrap;
 }
 
-/* slider for phone */
+}
 
 
-.section-padding{
-    padding:20px 60px;
-    }
-    
-    .single-logo{
-        color: black;
-        text-align: center;
-        width: 222px;
-    /* height: 300px; */
-    left: 0px;
-    top: 0px;
-    background: #FFFFFF;
-    border: 1px solid #F2F2F2;
-    box-shadow: 0px 2px 9px #F7F7F7;
-    border-radius: 10px;
-    }
-    
-    .single-logo h1 {
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
-    color: #000000;
-    
-    }
-    .single-logo p { 
-    font-size: 18px;
-    line-height: 27px;
-    color: #000000;
-    }
-    .products-for-mobile{
-        text-align: center;
-        padding: 53px 0px;
-    }
-    
-    .products-for-mobile h1{
-    
-        font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 36px;
-    }
-    .products-for-mobile-single-section h3{
-        font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
-    padding-left: 62px;
-    }
 
-/* End slider for phone */
+
 .offers-mobile{
     display: none;
 }
