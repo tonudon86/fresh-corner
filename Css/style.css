@@ -477,7 +477,7 @@ margin:10px 11px;
 }
 
 .div-our-product h1{
-    margin-left: 2vw;
+    /* margin-left: 2vw; */
 }
 
 
@@ -841,7 +841,7 @@ line-height: 27px;
 }
 
 .div-our-product h1 {
-    margin-left: 121px;
+    /* margin-left: 121px; */
 }
 
 .single-product-box {
@@ -1284,6 +1284,7 @@ footer{
 
 }
 .div-our-product{
+    text-align: center;
     flex-wrap: wrap;
 }
 
