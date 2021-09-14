@@ -1047,7 +1047,9 @@
         var preloader = document.getElementById("loading");
 
 function myFunction(){
-preloader.style.display = 'none';
+setTimeout(() => {
+    preloader.style.display = 'none';
+}, 3000);
 };
 </script>
    
