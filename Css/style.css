@@ -1322,11 +1322,26 @@ footer{
 .offers-mobile{
     display: none;
 }
- 
+ .logo img{
+     height: 150px;
+     width: 150px;
+ }
+ .footerlogo img{
+    width: 200px;
+    padding-top: 50px;
+}
+
+
 @media only screen and (max-width: 600px) {
     .offers {
       display: none;
     }
+    .footerlogo img {
+        width: 100%;
+        float: left;
+    }
+  
+  
 
     .offers-mobile{
         display: block;
@@ -1334,6 +1349,9 @@ footer{
         margin: 90px 0px;
  
     }
+    .logo img{
+        height: 100%;
+        width: 100%;
+    }
   }
-
 
