@@ -632,15 +632,34 @@ footer{
    
 
 }
+.copyright{
+
+    color: #171635;
+    width: 100vw;
+    background: #F4B79E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 10px 8px;
+}
+
+.copyright li{
+list-style: none;
+}
+
+.copyright li a{
+    text-decoration: none;
+    color: #171635;
+    }
 .Support-for-mobile{
     display: none;
 }
 .social-icons1{
     display: none;
 }
-.copyright{
-    display: none;
-}
+
 
 footer h3{
     font-family: Poppins;
@@ -919,6 +938,7 @@ body{
     #mobile{
         display: block;
     }
+   
   .footer-log{
 padding-right: 30vw;
   } 
@@ -969,28 +989,7 @@ padding-right: 30vw;
 align-items: center;
 justify-content: space-between;
 }
-.copyright{
-    display: block;
-    color: #171635;
-    width: 100vw;
-    background: #F4B79E;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    font-weight: bold;
-    padding: 10px 8px;
-    margin-top: 10px;
-}
 
-.copyright li{
-list-style: none;
-}
-
-.copyright li a{
-    text-decoration: none;
-    color: #171635;
-    }
 #header{
    background-image: url(/img/phonebg.png);
    height: 100vh;
@@ -1212,7 +1211,9 @@ footer{
     width: 85%;
 }
 
-
+.about-us{
+    visibility: hidden;
+}
 }
 
 /* slider for phone */
