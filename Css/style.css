@@ -45,7 +45,8 @@ header {
   .sticky {
     background: #fff;
   }
-
+  .bread-koko-c{width: 171px;
+  height: 170px;}
   header .logo {
     position: relative;
     font-weight: 700;
@@ -1175,9 +1176,14 @@ width: 97%;
 .single-product-box{
     width: 82px;
     height: 127px;
+    text-align: center;
 }
 .single-product-box h3 , .single-product-box h3{
 font-size: 10px;
+}
+.bread-koko-c{
+    width: 65px;
+    height: 55px;
 }
 .single-product-box p{
     font-size: 10px;
