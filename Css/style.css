@@ -929,7 +929,7 @@ line-height: 27px;
 
 .Categories ul li a, .about-us ul li a, .Support ul li a{
     font-size: 16px;
-    line-height: 23px;
+    line-height: 18px;
 }
 
 .Categories ul li, .about-us ul li, .Support ul li {
@@ -1029,6 +1029,12 @@ padding-right: 30vw;
 .Support-for-mobile li a{
     text-decoration: none;
 }
+
+
+.Support-for-mobile-info .ul-phone{
+    margin-bottom: -46px;
+}
+
 .Support-for-mobile-info ul{
     display: flex;
 align-items: center;
