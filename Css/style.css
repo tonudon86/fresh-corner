@@ -10,9 +10,11 @@
 	position: fixed;
 	width: 100%;
 	height: 100vh;
-	background: #fff
-	url('/img/Rolling-1s-77px.gif')
-	 no-repeat center center;	
+	background: #f8f5f0
+    
+	url('/img/The-Best-50-Website-Preloaders-Around-the-Web-Example-07.gif')
+	 no-repeat center center;
+     background-size: 500px 500px;
 	z-index: 99999;
 }
 h1 , h2 , h3,h4,h5, h6 {
@@ -1222,7 +1224,7 @@ line-height: 26px;
 width: 295px;
 }
 .img2  {
-width: 44vw;
+width: 42vw;
 
 }
 .img3{
@@ -1330,8 +1332,45 @@ footer{
     width: 200px;
     padding-top: 50px;
 }
+#offers{
 
+    background-color: #171635;
+}
+.offers-mobile{
+    padding-top: 30px;
+}
 
+.offers-mobile div  h1{
+    padding: 0px 20px;
+color: white;
+font-family: Poppins;
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 120.5%;
+margin-bottom: 24px;
+}
+.offers-mobile div h5 {
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 121.5%;
+    /* or 29px */
+    padding:20px 30px;
+    margin-bottom: 36px;
+    color: #F4B79E;
+}
+.offers-mobile div img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.offers-mobile div div img {
+    width: 24px;
+    margin:  20px;
+height: 24px;
+}
 @media only screen and (max-width: 600px) {
     .offers {
       display: none;
