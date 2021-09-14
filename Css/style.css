@@ -1135,7 +1135,7 @@ margin: 0px;
 
 .p-p-content{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
@@ -1176,13 +1176,15 @@ width: 97%;
 }
 /* End why choose us  */
 
-
+.single-p-p-process h3 {
+    font-size: 14px;
+}
 .single-p-p-process{
-    width: 100%;
+    width: 44%;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 73px;
+    padding: 8px;
 }
 .arrow{
     display: none;
