@@ -1021,7 +1021,7 @@ padding-right: 30vw;
 
 .Support-for-mobile{
     
-   width: 80%;
+   width: 70%;
   
     color: #F4B79E;
 }
@@ -1265,7 +1265,6 @@ footer{
 }
 
 .about-us{
-    display: block;
     visibility: hidden;
 }
 }
