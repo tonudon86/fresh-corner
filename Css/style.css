@@ -476,9 +476,7 @@ border-radius: 10px;
 margin:10px 11px;
 }
 
-.div-our-product h1{
-    /* margin-left: 2vw; */
-}
+
 
 
 /*  End Our Products */
@@ -840,9 +838,7 @@ line-height: 27px;
     padding: 46px 0px;
 }
 
-.div-our-product h1 {
-    /* margin-left: 121px; */
-}
+ 
 
 .single-product-box {
     width: 207px;
@@ -959,7 +955,7 @@ body{
 
 
 /* phone */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 450px ) {
   
     #mobile{
         display: block;
@@ -1199,7 +1195,7 @@ font-size: 10px;
 }
 
 .single-p-p-process{
-    width: 44%;
+    width: 42%;
     align-items: center;
     justify-content: center;
     text-align: center;
