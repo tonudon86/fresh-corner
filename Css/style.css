@@ -177,7 +177,10 @@ padding-left: 100px;
 margin-bottom: 20px;
 
 }
-
+.div-our-product > h1{
+    margin-left: 80px;
+    margin-top: 40px;
+}
 
 #header h1{
     font-family: Playfair Display;
@@ -756,7 +759,11 @@ line-height: 27px;
 
 
 /* End footer */
-
+@media screen and (  max-width: 768px){
+    #offers > img{
+        width: 87%;
+    }
+}
 
 /* desktop */
 @media screen and (  max-width: 900px){
@@ -956,7 +963,9 @@ body{
 
 /* phone */
 @media screen and (max-width: 450px ) {
-  
+  .div-our-product > h1{
+      margin: 0;
+  }
     #mobile{
         display: block;
     }
